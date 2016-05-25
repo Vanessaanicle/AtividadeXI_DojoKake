@@ -67,6 +67,17 @@ public class AtividadePratica {
 		return "O professor 1 possui " +professor1+ " alunos." + "\n" + "O professor 2 possui " + professor2+ " alunos." + "\n" + "O professor 3 possui "
 		+ professor3+ " alunos." + "\n" + "O professor 4 possui " + professor4+ " alunos." + "\n" + "O professor 5 possui " + professor5+ " alunos." + "\n";
 	}
+	//Q5
+	Scanner scanner = new Scanner(System.in);
+		double [][] nota = new double [30][1];
+		for(int i = 0;i < nota.length ;i++){
+			for(int j = 0; j < nota.length ;j++ ){
+				System.out.println("Informe a nota do aluno :");
+				nota[i][j] = scanner.nextDouble();	
+			}
+		}
+
+	
 		
 		
 		
